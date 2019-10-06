@@ -1,5 +1,21 @@
 {
   "tasks": [
-  {}
+    {
+      "id": 0,
+      "name": "walk the dog",
+      "details": {
+        "itemsNeeded": "Dog collor",
+        "timeToComplete": "3 hrs.",
+        "description": "walk dog around the block"
+      }
+    },
+    {
+      "name": "Do the Dishes",
+      "id": 1
+    },
+    {
+      "name": "skipping",
+      "id": 2
+    }
   ]
 }

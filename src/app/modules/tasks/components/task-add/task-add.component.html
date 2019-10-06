@@ -1,0 +1,14 @@
+<div id="addTask">
+      <h2>Task Add</h2>
+    Name: <input (ngModel)="newTask.name" (input)="newTask.name = $event.target.value">
+    <br>
+    <h3>Details: </h3> <br>
+
+    <em>Items Needed:</em><input (ngModel)="newTask.details['itemsNeeded']" (input)="newTask.details['itemsNeeded'] = $event.target.value">
+    <br>
+    <em>Time To Complete: </em><input (ngModel)="newTask.details['timeToComplete']" (input)="newTask.details['timeToComplete'] = $event.target.value">
+    <br>
+    <em>Description: </em><input (ngModel)="newTask.details['description']" (input)="newTask.details['description'] = $event.target.value">
+    <br>
+    <button (click)="addTask()">Add</button>
+</div>
